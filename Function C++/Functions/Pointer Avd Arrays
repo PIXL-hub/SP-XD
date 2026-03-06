@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World!\n";
+
+    //Pointers Test 
+    cout << "Hello World!\n";       
+    float ltX = 10.5;
+    cout << &ltX << endl; // Address of ltX
+    float *ptr = &ltX; // Pointer to ltX
+    cout << ptr << endl; // Address stored in ptr
+    cout << *ptr << endl; // Value pointed to by ptr
+    int y = 9;
+    int *p = &y; // x is assigned the value of y using pointer dereferencing
+    cout << "Value of p: " << p << endl; // Output the value of p
+    cout << *p << endl; // Output the value pointed to by x
+    cout << y << endl; // Output the value of y
+
+    // Arrays Test
+    cout << "Hello World!\n";
+    int Ages[5] = {1, 2, 3, 4, 5};
+    cout << Ages[0] << endl; // Output the first element of the array
+    cout << Ages[1] << endl; // Output the second element of the array
+    cout << Ages[3] << endl; // Output the third element of the array
+
+    string Names [3] = {"Alice", "Bob", "Charlie"};
+    cout << Names[0] << endl; // Output the first element of the array
+    cout << Names[1] << endl; // Output the second element of the array 
+    cout << Names[3] << endl; // Output the third element of the array
+    
+
+
+    return 0;
+}

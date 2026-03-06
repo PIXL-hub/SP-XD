@@ -1,0 +1,2 @@
+﻿  Function,cpp.cpp
+D:\Learn C++ Porgramming\Function,cpp\Function,cpp\Function,cpp.cpp(2,10): error C1853: 'x64\Debug\Function,cpp.pch' precompiled header file is from a different version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
